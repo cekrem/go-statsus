@@ -60,7 +60,7 @@ func main() {
 		failOnErr(err)
 
 		fmt.Println("\r", status)
-		time.Sleep(time.Second * 2)
+		time.Sleep(time.Second * 5)
 	}
 }
 
